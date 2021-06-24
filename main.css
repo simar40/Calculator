@@ -59,3 +59,18 @@ button:hover{
 [data-value="/"]:hover,[data-value="*"]:hover,[data-value="-"]:hover,[data-value="+"]:hover,[data-value="="]:hover{
     background-color: #A23131;
 }
+@media(max-width : 380px)
+{
+    button:hover{
+        background-color: #fff;
+    }
+    button:active{
+        background-color: #ffc64d;
+    }
+    [data-value="/"]:active,[data-value="*"]:active,[data-value="-"]:active,[data-value="+"]:active,[data-value="="]:active{
+        background-color: #A23131;
+    }
+    [data-value="/"]:hover,[data-value="*"]:hover,[data-value="-"]:hover,[data-value="+"]:hover,[data-value="="]:hover{
+        background-color: #CB3737;
+    }
+}
